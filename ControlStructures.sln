@@ -27,6 +27,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "HardChess", "HardChess\Hard
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "PascalTreangle", "PascalTreangle\PascalTreangle.vcxproj", "{CAB9BAB5-15E4-438D-B59C-B9472F6A031A}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "HardChess2", "HardChess2\HardChess2.vcxproj", "{29D9896A-F8C3-46A4-9545-B9EE9AC9BB97}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|ARM64 = Debug|ARM64
@@ -181,6 +183,18 @@ Global
 		{CAB9BAB5-15E4-438D-B59C-B9472F6A031A}.Release|x64.Build.0 = Release|x64
 		{CAB9BAB5-15E4-438D-B59C-B9472F6A031A}.Release|x86.ActiveCfg = Release|Win32
 		{CAB9BAB5-15E4-438D-B59C-B9472F6A031A}.Release|x86.Build.0 = Release|Win32
+		{29D9896A-F8C3-46A4-9545-B9EE9AC9BB97}.Debug|ARM64.ActiveCfg = Debug|ARM64
+		{29D9896A-F8C3-46A4-9545-B9EE9AC9BB97}.Debug|ARM64.Build.0 = Debug|ARM64
+		{29D9896A-F8C3-46A4-9545-B9EE9AC9BB97}.Debug|x64.ActiveCfg = Debug|x64
+		{29D9896A-F8C3-46A4-9545-B9EE9AC9BB97}.Debug|x64.Build.0 = Debug|x64
+		{29D9896A-F8C3-46A4-9545-B9EE9AC9BB97}.Debug|x86.ActiveCfg = Debug|Win32
+		{29D9896A-F8C3-46A4-9545-B9EE9AC9BB97}.Debug|x86.Build.0 = Debug|Win32
+		{29D9896A-F8C3-46A4-9545-B9EE9AC9BB97}.Release|ARM64.ActiveCfg = Release|ARM64
+		{29D9896A-F8C3-46A4-9545-B9EE9AC9BB97}.Release|ARM64.Build.0 = Release|ARM64
+		{29D9896A-F8C3-46A4-9545-B9EE9AC9BB97}.Release|x64.ActiveCfg = Release|x64
+		{29D9896A-F8C3-46A4-9545-B9EE9AC9BB97}.Release|x64.Build.0 = Release|x64
+		{29D9896A-F8C3-46A4-9545-B9EE9AC9BB97}.Release|x86.ActiveCfg = Release|Win32
+		{29D9896A-F8C3-46A4-9545-B9EE9AC9BB97}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

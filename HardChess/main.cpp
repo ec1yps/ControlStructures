@@ -1,8 +1,8 @@
 #include <iostream>
 using namespace std;
 
-//#define HARD_CHESS_1
-#define HARD_CHESS_2
+#define HARD_CHESS_1
+
 
 void main() {
 	setlocale(LC_ALL, "");
@@ -21,19 +21,4 @@ void main() {
 		}
 	}
 #endif // HAED_CHESS_1
-
-#ifdef HARD_CHESS_2
-	int k = 0, l = 0;
-	for (int i = 0; i < n * n; i++) {
-		for (int j = 0; j < n * n; j++) {
-			if (k < j % n && l) cout << "* ";
-			else {
-				cout << "  ";
-				k++;
-			}
-		}
-		cout << endl;
-	}
-#endif // HARD_CHESS_2
-
 }
